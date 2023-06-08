@@ -1,4 +1,4 @@
-# git 기본 명령어
+# git 명령어
 
 
 - **```init```** : git 저장소를 초기화한다.
@@ -15,6 +15,20 @@
 - **```push```** : 원격저장소에 저장한다.
     - **```origin master```** : master를 origin이라는 원격저장소에 업로드한다
 
+- **```pull```** : 원격저장소에서 변경된 커밋을 가져온다.
+    - **```origin master```** : origin이라는 저장소에 있는 master라는 branch에서 커밋을 가져온다.
+
+- **```log```** : 커밋 기록을 보여준다.
+    - **```--oneline```** : 요약해서 보여준다.
+        - **```--graph```** : 그래프 형태로 로그를 보여줌
+
+- **```branch```** : 가지를 확인
+    - **```-c <..>```** : <..>라는 branch를 만든다.
+
+- **```switch <..>```** : <..>라는 branch로 이동한다.
+
+- **```merge <..>```** : 지금위치에 branch에 <..> branch를 합친다.(<..>는 변하지않음)
+
 
 # github 업로드 순서
 
@@ -23,4 +37,5 @@
     - ```Stage fixes``` : stage의 변경사항을 보냄
 2. **Staging Area** : 커밋할 대상을 저장하는곳  ```index```라고도 불림.
     - **```commit```** : 변경된 값을 저장한다.
-3. **git directory** : 원격 저장소 
+3. **git directory** : repository 
+
