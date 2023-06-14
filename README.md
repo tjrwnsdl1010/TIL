@@ -53,3 +53,26 @@
     - 리스트, 배열등의 일부를 추출할 떄 사용.
     ![예시](assets/arrr.png)
 - ```{}``` Dictionary 키와 value를 구분할 떄 사용.
+
+- ```if <조건식>```:
+        참인경우 실행하는 코드
+- ```elif<조건식>```:
+        elif의 조건식이 참인 경우 실행하는 코드
+- ```else```:
+        거짓인 경우 실행하는 코드
+
+- ## ```조건 표현식``` : valuee if <조건식> els value
+
+- ##  ```while 반복문``` :
+    - while 조건식이 참인 경우 반복적으로 코드를 실행  
+
+- ## ```for 반복문``` : 
+    - for var in sequence: \
+        실행 할 코드
+    - sequence 타입의 요소를 순서대로 `var`에 대입하고 모든 요소의 대입이 끝나고 반복문을 빠져나온다.
+    - var = sequence[0], var = sequence[1], var = sequence[2], ...
+
+- ##
+
+
+
